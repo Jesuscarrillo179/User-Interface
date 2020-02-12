@@ -49,7 +49,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 	box-sizing: border-box;
-	border:0px solid red;
+	border:1px solid red;
 }
 
 html, body {
@@ -136,4 +136,59 @@ a.startedbutton:hover{
 	width:42%;
 	margin-left:5%;
 	vertical-align: top;
+}
+
+/*info section*/
+section.info {
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+div.featuresblock{
+	display: inline-block;
+	width:49%;
+	vertical-align: top;
+}
+div.aboutblock{
+	display: inline-block;
+	width:49%;
+	margin-left: 1%;
+}
+/*Picture banner*/
+img.middle-img {
+	width: 100%;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+/*info section pt2*/
+
+
+div.servicesblock {
+	display: inline-block;
+	width:30%;
+}
+div.productblock {
+	display: inline-block;
+	width:30%;
+	margin-left: 4%;
+}
+div.visionblock {
+	display: inline-block;
+	width:30%;
+	margin-left: 4%;
+}
+
+address{
+	padding-top: 4%;
+	padding-bottom: 4%;
+	width:20%;
+}
+p.copyright {
+	padding-bottom: 4%;
+	text-align:center;
+	margin:0 auto;
+}
+div.cpc {
+	padding-bottom: 4%;
+	text-align:center;
+	margin: 0 auto;
 }
