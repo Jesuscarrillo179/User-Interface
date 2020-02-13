@@ -18,7 +18,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,7 +48,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	border:1px solid red;
 }
 
 html, body {
@@ -64,3 +64,131 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+	
+body {
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:2%;
+}
+/*navbar*/
+nav {
+	display:inline-block;
+	width:100%;
+}
+a.topbutton {
+	display:inline-block;
+	text-decoration:none;
+	width:6%;
+	padding:1%;
+	color:lightgrey;
+	vertical-align: top;
+}
+a:hover{
+	color:blue;
+}
+ .logo{
+	display:inline-block;
+	width:20%;
+	margin-left:42%;
+}
+header{}
+
+/*Innovation on demand section*/
+
+section.start {
+	width:100%;
+	padding-top: 5%;
+}
+
+div.fhalf {
+	display:inline-block;
+	padding: 9%;
+	vertical-align: top;
+}
+h1{
+	height: 10%;
+	display: inline-block;
+	text-align: center;
+	font-size:120px;
+}
+a.startedbutton{
+	text-decoration: none;
+	color:black;
+}
+div.button{
+	padding:5px 70px 5px 70px;
+	font-size: 20px;
+	display:inline-block;
+	border:1px solid black;
+	text-align: center;
+	margin-left: 26%;
+}
+div.button:hover{
+	border:1px solid lightgrey;
+	color:lightgrey;
+}
+a.startedbutton:hover{
+	color:lightgrey;
+}
+.headerimg{
+	display:inline;
+	width:42%;
+	margin-left:5%;
+	vertical-align: top;
+}
+
+/*info section*/
+section.info {
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+div.featuresblock{
+	display: inline-block;
+	width:49%;
+	vertical-align: top;
+}
+div.aboutblock{
+	display: inline-block;
+	width:49%;
+	margin-left: 1%;
+}
+/*Picture banner*/
+img.middle-img {
+	width: 100%;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+/*info section pt2*/
+
+
+div.servicesblock {
+	display: inline-block;
+	width:30%;
+}
+div.productblock {
+	display: inline-block;
+	width:30%;
+	margin-left: 4%;
+}
+div.visionblock {
+	display: inline-block;
+	width:30%;
+	margin-left: 4%;
+}
+
+address{
+	padding-top: 4%;
+	padding-bottom: 4%;
+	width:20%;
+}
+p.copyright {
+	padding-bottom: 4%;
+	text-align:center;
+	margin:0 auto;
+}
+div.cpc {
+	padding-bottom: 4%;
+	text-align:center;
+	margin: 0 auto;
+}
