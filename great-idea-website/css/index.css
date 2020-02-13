@@ -197,3 +197,6 @@ span.phonenumber {
 	text-decoration: none;
 	color:black;
 }
+hr {
+	border-top: 1px solid black;
+}
